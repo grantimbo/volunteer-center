@@ -1,0 +1,457 @@
+/*
+Author: volunteer.com
+Author URI: http://volunteer.com
+Version: 1.0
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: #fff;
+}
+a:link {
+	text-decoration: none;
+	color: #f7f7f7;
+}
+ul {
+	list-style: none;
+}
+#clear {
+	clear: both;
+}
+#wrapper {
+	width: 1080px;
+	margin: 10px auto;
+	padding: 0px 12px 40px;;
+	background: #fff url(images/wrapper_shadow.png) bottom repeat-x;
+	font-family: "segoe ui", helvetica, arial, verdana;
+}
+#menu {
+	background-color: #f1592a;
+}
+#menu li a{
+	padding: 5px 30px;
+	border-left: #f8ac94 2px solid;
+	float: left;
+	text-transform: uppercase;
+	font-family: "agency fb", bebas;
+	font-size: 20px;
+	color: #fff;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+}
+#menu li a:hover {
+	color:#fdb813;
+}
+#menu li:last-child a{
+	background: #fdb813 url(images/yellow_last_menu.png) right no-repeat;
+	padding-right: 43px;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+}
+#menu li:last-child a:hover{
+	color: #11578b;
+}
+#grassroots_logo {
+	float: left;
+	background: url(images/logo.png);
+	width: 191px;
+	height: 28px;
+	margin: 3px 155px 0px 60px;
+}
+#interns_logo  {
+	float: left;
+	background: url(images/interns_logo.png);
+	width: 324px;
+	height: 65px;
+	margin: 20px 0px 10px 60px;
+}
+#down_menu{
+	float: left;
+	width: 545px;
+	margin: 40px 0px 0px 90px;
+}
+#down_menu li a{
+	float: left;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: "agency fb", bebas;
+	font-size: 20px;
+	color: #4c311e;
+	font-weight: bold;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+#down_menu li a:hover {
+	color: #f1592a;
+	
+}
+.selected_menu {
+	background: url(images/menu_bg.png) no-repeat;
+}
+/* -- start of home content -- */
+#home_content {
+	width: 580px;
+	margin: 20px 10px 0px 60px;
+	float: left;
+}
+#home_onepage {
+	margin: 5px 60px;
+}
+#home_onepage img{
+	margin: 0px 20px 20px 0px;
+	float: left;
+}
+#home_onepage p {
+	color: #4c311e;
+	font-size: 14px;
+	padding: 0px 0px 10px;
+}
+#home_onepage h2 {
+	font-weight: bold;
+	font-size: 28px;
+	color: #4c311e;
+	font-family: "agency fb", bebas;
+	margin: 5px 0px;
+}
+#home_downpages {
+	border-top: #f1592a solid 3px;
+	width: 451;
+	margin: 10px 0px 0px;
+	float: left;
+}
+#home_downpages_spacer {
+	width: 50px;
+	height: 150px;
+	float: left;
+}
+/* -- end of home contents -- */
+
+/* -- blog content -- */
+#blog_contents_search {
+	padding: 7px 10px;
+	border: #E6E4E2 2px solid;
+	color: #E6E4E2;
+	letter-spacing: 2px;
+	font-size: 12px;
+	float: right;
+	width: 266px;
+	margin: 17px 10px 0px 0px;
+	background: #F7F7F7 url(images/search_icon.png) no-repeat  236px 4px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+#blog_contents_search:focus {
+	color: #4d4d4d;
+	letter-spacing: normal;
+}
+#blog_contents {
+	width: 655px;
+	margin: 20px 10px 0px 60px;
+	float: left;
+}
+#blog_contents h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	width: 280px;
+	float: left;
+	color: #f1592a;
+	font-family: "agency fb", bebas;
+	margin-bottom: 0px 10px 10px;
+}
+#blog_article {
+	margin: 0px 0px 20px;
+}
+#blog_article h2{
+	text-transform: uppercase;
+	font-size: 34px;
+	color: #4c311e;
+	font-family: "agency fb", bebas;
+}
+#blog_article .datecomments {
+	color: #fdb813;
+	margin: -3px 0px 0px;
+}
+#blog_article .readmore {
+	color: #f1592a;
+	margin: 5px 0px 0px;
+	font-weight: bold;
+}
+#blog_article p {
+	color: #4c311e;
+	font-size: 14px;
+	padding: -3px 0px 10px;
+}
+#new_old_post {
+	text-align: center;
+	color: #4c311e;
+	font-size: 14px;
+	margin: 60px 0px 0px;
+}
+#new_old_post ul {
+	width: 400px;
+	text-align: center;
+	float: left;
+	margin-left: 53px;
+}
+#new_old_post li {
+	display: inline-block;
+	margin: 0px 20px;
+	width: 20px;
+}
+.new_old_post_selected {
+	border-radius: 20px;
+	border: #4c311e solid 1px;
+	padding: 1px;
+}
+#new_old_post p{
+	float: left;
+}
+/* -- end of blog contents -- */
+
+/* -- blog content -- */
+#resource_contents {
+	width: 655px;
+	margin: 20px 10px 0px 60px;
+	float: left;
+}
+#resource_contents h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f1592a;
+	font-family: "agency fb", bebas;
+	margin-bottom: 0px 10px 10px;
+}
+#resource_article {
+	margin: 0px 0px 50px;
+}
+#resource_article img {
+	float: left;
+	margin: 8px 20px 0px 0px;
+}
+#resource_article_right {
+	float: left;
+	width: 440px;
+}
+#resource_article h2{
+	text-transform: uppercase;
+	font-size: 34px;
+	color: #4c311e;
+	font-family: "agency fb", bebas;
+}
+#resource_article .readmore {
+	color: #f1592a;
+	margin: 5px 0px 0px;
+	font-weight: bold;
+}
+#resource_article p {
+	color: #4c311e;
+	font-size: 14px;
+	padding: -3px 0px 10px;
+}
+/* -- end of blog contents -- */
+
+
+/* -- start of about content -- */
+#about_content {
+	width: 655px;
+	margin: 20px 10px 0px 60px;
+	float: left;
+}
+#about_content p {
+	color: #4c311e;
+	font-size: 14px;
+	padding: 0px 0px 10px;
+}
+#about_content h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f1592a;
+	font-family: "agency fb", bebas;
+	margin-bottom: 10px;
+}
+#about_content h2 {
+	font-size: 20px;
+	color: #f1592a;
+	margin-bottom: 5px;
+}
+/* -- end of about contents -- */
+
+/* -- start of about content -- */
+#social_icons {
+	float: left;
+}
+#social_icons a img{
+	opacity: 1;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+#social_icons a img:hover{
+	opacity: .3;
+}
+#contacts_left {
+	width: 400px;
+	float: left;
+}
+#contact_contents {
+	width: 973px;
+	margin: 20px 10px 0px 60px;
+	float: left;
+}
+#contact_contents p {
+	color: #4c311e;
+	font-size: 14px;
+	padding: 0px 0px 10px;
+	float: left;
+}
+#contact_contents h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f1592a;
+	font-family: "agency fb", bebas;
+	margin-bottom: 10px;
+}
+#contact_form {
+	float: left;
+	width: 500px;;
+	margin: -10px 0px 0px 40px
+}
+#contact_form p {
+	margin: 10px 0px -9px;
+}
+#contact_form  input[type=text]  {
+	padding: 4px 10px;
+	width: 450px;
+}
+#contact_form textarea  {
+	width: 450px;
+	height: 120px;
+	padding: 4px 10px;
+}
+/* -- end of about contents -- */
+
+
+/* -- available positions -- */
+#widgets {
+	width: 290px;;
+	float: right;
+	margin: 20px 38px 20px 19px
+}
+#blog_archive {
+	margin-top: 20px;
+	background: #e9e9e9;
+	padding: 5px 0px 10px;
+}
+#blog_archive h3{
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #6d6e70;
+	font-family: "agency fb" bebas;
+	margin: 5px 20px 5px;
+	border-bottom: #6d6e70 solid 1px;
+}
+#blog_archive ul {
+	display: block;
+}
+#blog_archive li a{
+	padding: 3px 20px;
+	font-size: 14px;
+	color: #6d6e70;
+}
+#blog_archive li a:hover{
+	padding: 3px 20px;
+	font-size: 14px;
+	color: #FDB813;
+}
+#available_positions {
+	background: #fdb813;
+}
+#available_positions h2{
+	font-family: "agency fb", bebas;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 34px;
+	padding: 15px 5px 6px;
+	text-align: center;
+}
+#available_positions li a{
+	display: block;
+	border-top: solid 2px #fff;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #fff;
+	background: #fdb813;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+}
+#available_positions li a:hover {
+	color: #4c311e;
+}
+#available_positions li:nth-child(1) a{
+	color: #fff;
+	background: #f1592a;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+}
+#available_positions li:nth-child(1) a:hover{
+	color: #4c311e;
+	background: #fff;
+}
+#available_positions li:last-child a{ /* --- see all --- */
+	height: 30px;
+	background: #fdb813 url(images/see_all.png)  175px 12px no-repeat;
+	opacity: 1px;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;  
+}
+#available_positions li:last-child a:hover{ /* --- see all --- */
+	opacity: .4;
+}
+/* -- end of available positions -- */
+
+#footer {
+	width: 990px;
+	margin: 0px auto 20px;
+}
+#footer ul {
+	width: 613px;
+	margin:10px auto 0px;
+}
+#footer li {
+	float: left;
+}
+#footer p {
+	color: #6d6e70;
+	font-size: 14px;
+	text-align: center;
+	font-family: "segoe ui", arial, verdana;
+}
+.seo {
+	background: url(images/footer_logos.png) 0px 0px no-repeat;
+	width: 204px;
+	height: 72px;
+}
+.mikemann {
+	background: url(images/footer_logos.png) -206px 0px no-repeat;
+	width: 204px;
+	height: 72px;
+}
+.grassroots {
+	background: url(images/footer_logos.png) -414px 0px no-repeat;
+	width: 204px;
+	height: 72px;
+}
